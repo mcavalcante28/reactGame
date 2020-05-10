@@ -1,0 +1,15 @@
+.component-container{
+  display: flex;
+  width: 30%;
+  height: 30%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.component-container header{
+  font-size: 15px;
+  line-height: 18px;
+  color:#4444;
+}

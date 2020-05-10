@@ -1,24 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles.css'
+import vs from './assets/VS.svg'
+import ActionSelect from './components/playerInterface'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <ActionSelect playerName={'Player 1'}/>
+      <img src={vs} alt="vs"/>
+      <ActionSelect playerName={'Player 2'} />
     </div>
   );
 }
