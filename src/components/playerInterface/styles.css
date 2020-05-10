@@ -3,7 +3,7 @@
   width: 30%;
   height: 30%;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 
 }
@@ -11,5 +11,30 @@
 .component-container header{
   font-size: 15px;
   line-height: 18px;
-  color:#4444;
+  color:#3333;
+  font-weight: bold;
+}
+
+.options-container{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.options-container button{
+  background-color: #F2F2F2;
+  border-radius: 100%;
+  border-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  transition-duration: 0.3s;
+}
+
+.options-container button:hover{
+background-color: #d3d3f4;
+
 }
